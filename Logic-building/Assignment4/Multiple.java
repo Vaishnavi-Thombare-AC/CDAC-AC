@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Multiple
+{
+    public static void main(String ar[])
+    {
+        Scanner sc =  new Scanner(System.in);
+        System.out.print("Enter the number:");
+        int n = sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            if(i%3==0)
+            {
+                System.out.print(i+" ");
+            }
+        }
+
+    }
+}
